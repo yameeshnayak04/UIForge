@@ -1,0 +1,37 @@
+{
+  "name": "uiforge",
+  "version": "1.0.0",
+  "description": "A Claude-code style frontend generator",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yameeshnayak04/UIForge.git"
+  },
+  "author": "Yameesh Nayak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yameeshnayak04/UIForge/issues"
+  },
+  "homepage": "https://github.com/yameeshnayak04/UIForge#readme",
+  "dependencies": {
+    "next": "^16.1.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "uuid": "^13.0.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.9.3"
+  }
+}
