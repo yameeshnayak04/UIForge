@@ -1,0 +1,44 @@
+.panel {
+  padding: 1rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.title {
+  margin: 0 0 1rem 0;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.empty {
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.item {
+  padding: 0.5rem;
+  background: #f9fafb;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.itemActive {
+  background: #eff6ff;
+}
+
+.itemId {
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.itemIntent {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  margin-top: 0.25rem;
+}

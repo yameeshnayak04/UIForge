@@ -1,0 +1,56 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: white;
+  border-top: 1px solid #e5e7eb;
+}
+
+.header {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #e5e7eb;
+  background: #f9fafb;
+}
+
+.header h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.viewport {
+  flex: 1;
+  overflow: auto;
+  padding: 1.5rem;
+}
+
+.error {
+  padding: 1rem;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 6px;
+  color: #991b1b;
+}
+
+.error h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+}
+
+.error p {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #9ca3af;
+}
+
+.empty p {
+  text-align: center;
+}

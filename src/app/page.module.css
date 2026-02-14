@@ -1,0 +1,48 @@
+.root {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chatArea {
+  flex: 1;
+  overflow: hidden;
+}
+
+.versionsArea {
+  height: 250px;
+  overflow: auto;
+  border-top: 1px solid var(--color-border);
+}
+
+.panelFill {
+  overflow: hidden;
+  height: 100%;
+}
+
+.loadingShell {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f9fafb;
+}
+
+.loadingCard {
+  text-align: center;
+}
+
+.loadingCard h2 {
+  color: var(--color-primary);
+  margin: 0;
+}
+
+.loadingCard p {
+  color: var(--color-text-muted);
+  margin-top: 0.5rem;
+}

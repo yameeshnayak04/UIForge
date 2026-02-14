@@ -1,0 +1,39 @@
+.stack {
+  display: flex;
+}
+
+.vertical {
+  flex-direction: column;
+}
+
+.horizontal {
+  flex-direction: row;
+}
+
+.sm {
+  gap: 0.5rem;
+}
+
+.md {
+  gap: 1rem;
+}
+
+.lg {
+  gap: 1.5rem;
+}
+
+.start {
+  align-items: flex-start;
+}
+
+.center {
+  align-items: center;
+}
+
+.end {
+  align-items: flex-end;
+}
+
+.stretch {
+  align-items: stretch;
+}

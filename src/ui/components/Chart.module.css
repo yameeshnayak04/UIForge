@@ -1,0 +1,119 @@
+.chart {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.title {
+  margin: 0 0 1rem 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.barChart {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.barItem {
+  display: grid;
+  grid-template-columns: 80px 1fr 60px;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.barLabel {
+  font-size: 0.875rem;
+  color: #374151;
+}
+
+.barWrapper {
+  background: #f3f4f6;
+  height: 24px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.bar {
+  height: 100%;
+  background: linear-gradient(90deg, #3b82f6, #2563eb);
+  transition: width 0.3s ease;
+}
+
+.barValue {
+  text-align: right;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.lineChart {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.svg {
+  width: 100%;
+  height: 200px;
+}
+
+.line {
+  fill: none;
+  stroke: #2563eb;
+  stroke-width: 2;
+}
+
+.lineLabels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.pieChart {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.pieCircle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: conic-gradient(
+    #2563eb 0deg 120deg,
+    #3b82f6 120deg 240deg,
+    #60a5fa 240deg 360deg
+  );
+}
+
+.pieLegend {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.legendColor {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  background: #2563eb;
+}
+
+.legendItem:nth-child(2) .legendColor {
+  background: #3b82f6;
+}
+
+.legendItem:nth-child(3) .legendColor {
+  background: #60a5fa;
+}
